@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+        <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+        <style>   
+            /* Style the Sticky icons on web page */   
+            .stickyicon-list {   
+            position: fixed;   
+            top: 200px;   
+            transform: translateY(-50%);             
+            }         
+            .stickyicon-list a {   
+            display: block;   
+            text-align: center;   
+            padding: 8px;   
+            transition: all 0.5s ease;   
+            color: white;   
+            font-size: 20px;   
+            }         
+            /* HOver affect on sticky social media icons */   
+            .stickyicon-list a:hover {   
+            color: #000;   
+            width:10px;   
+            }   
+               
+            /* Now we have to design each icon of social media */         
+            .facebook {   
+            background: #3b5998;   
+            color: white;  
+            }         
+            .twitter {   
+            color: white;   
+            background: #00acee;   
+            }   
+            .linkedin {   
+            background: #0e76a8;   
+            color: white;   
+            }         
+            .google {   
+            color: white;   
+            background: #db4a39;   
+            }   
+            .instagram {   
+            background: #3f729b;   
+            color: white;   
+            }         
+            .youtube {   
+            color: white;   
+            background: #c4302b;    
+            }   
+            </style>   
+    </head>
+    <body>
+       <img src="" alt="">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me </a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="resume.pdf">Download CV</a></li>
+           
+            </ul>
+            <a href="https://wa.me/9686447834">
+   
+<i class="fa fa-whatsapp" id="whatsap"></i>
+</a>
+        </nav>
+        <section id="home">
+            <div class="main">
+                <h1 class="headings">Hello.,<br>I am <br><strong>Nayana Yadav M</strong></h1>
+                
+                
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                
+                <img src="img2.jpg" alt="" >
+                <div id="intro">
+                    <h2>Nayana Yadav M</h2>
+                    <p>I am a Lecturer by Profession , with 12 years of teaching experience in the area of Computer Science and Engineering<br>
+                        Throughout my career i have taught thousands of students on this path we learn new things and experiences too<br>
+                        My Passion is  to learn new things and technology ...</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 class="headings">MY SKILLS</h1>
+
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per=95% style="max-width:95%" ></div> 
+                </div>
+            </div>
+            
+             <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per=90% style="max-width:90%" ></div> 
+                    </div>
+                </div>
+
+                    <div class="skill-name">JAVASCRIPT</div>
+            <div class="skill-bar">
+                <div class="skill-per" per=85% style="max-width:85%" > 
+                </div>
+                </div>
+
+                <div class="skill-name">PHP</div>
+            <div class="skill-bar">
+                <div class="skill-per" per=80% style="max-width:80%" > 
+                </div>
+                </div>
+
+                <div class="skill-name">JQUERY</div>
+            <div class="skill-bar">
+                <div class="skill-per" per=70% style="max-width:70%" > 
+                </div>
+                </div>
+
+
+      
+            </section>
+        <section id="services">
+            <h1 class="headings">SERVICES</h1>
+            <div class="row">
+                <div class="box">
+                    <img src="1.png" alt="">
+                    <h1 class="headings">Website Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellat ratione unde illum voluptatem facilis ea esse. Voluptatem doloribus consectetur inventore adipisci dolorem tempora officia provident quas! Consequatur, laudantium excepturi?</p>
+                </div>
+                <div class="box">
+                    <img src="2.png" alt="">
+                    <h1 class="headings">UI/UX<br>Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellat ratione unde illum voluptatem facilis ea esse. Voluptatem doloribus consectetur inventore adipisci dolorem tempora officia provident quas! Consequatur, laudantium excepturi?</p>
+                </div>
+                 <div class="box">
+                    <img src="3.png" alt="">
+                    <h1 class="headings">Digital Marketing</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellat ratione unde illum voluptatem facilis ea esse. Voluptatem doloribus consectetur inventore adipisci dolorem tempora officia provident quas! Consequatur, laudantium excepturi?</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Enter Your Name">
+                <input type="email" name="email" class="input" placeholder="Enter your email">
+
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message " ></textarea>
+                
+                <input type="submit" value="SEND" id="send">
+
+            </form>
+
+
+        </section>
+        <!--Footer Section-->
+        <footer>
+        <p>Nayana Yadav</p><br>
+        <div class="social">
+         
+            <a href="https://www.facebook.com/mnayanayadav" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nayanayadavm/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/%E2%97%8F%E0%B9%8B-%CE%B7%CE%B1%EF%BD%BF%CE%B1%CE%B7%CE%B1-%EF%BD%BF%CE%B1%E2%88%82%CE%B1%CE%BD%E2%97%8F%E0%B9%8B-58b87918/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/nayana0626" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCHR0tz4T7XhXFB2pou_jzuA" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p class="end">CopyRight By- Nayana Yadav</p>
+
+        
+    </footer>
+    </body>
+</html>
